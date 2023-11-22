@@ -1,6 +1,6 @@
 {
-  "name": "@capacitor/push-notifications",
-  "version": "4.1.2",
+  "name": "com.danishin.capacitor-native-push-notifications",
+  "version": "1.0.0",
   "description": "The Push Notifications API provides access to native push notifications.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -13,14 +13,11 @@
     "ios/Plugin/",
     "CapacitorPushNotifications.podspec"
   ],
-  "author": "Ionic <hi@ionicframework.com>",
+  "author": "Daniel Shin",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ionic-team/capacitor-plugins.git"
-  },
-  "bugs": {
-    "url": "https://github.com/ionic-team/capacitor-plugins/issues"
+    "url": "git+https://github.com/danishin/capacitor-native-push-notifications.git"
   },
   "keywords": [
     "capacitor",
@@ -42,6 +39,7 @@
     "clean": "rimraf ./dist",
     "watch": "tsc --watch",
     "prepublishOnly": "npm run build",
+    "prepare": "npm run build",
     "publish:cocoapod": "pod trunk push ./CapacitorPushNotifications.podspec --allow-warnings"
   },
   "devDependencies": {
