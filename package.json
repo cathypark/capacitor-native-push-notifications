@@ -17,7 +17,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cathypark/push-notifications.git"
+    "url": "git+https://github.com/danishin/push-notifications.git"
   },
   "keywords": [
     "capacitor",
