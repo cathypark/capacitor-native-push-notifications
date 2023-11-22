@@ -324,7 +324,7 @@ requestPermissions() => Promise<PermissionStatus>
 
 Request permission to receive push notifications.
 
-On Android 12 and below the status is always granted because you can always
+On Android 12 and below it doesn't prompt for permission because you can always
 receive push notifications.
 
 On iOS, the first time you use the function, it will prompt the user
